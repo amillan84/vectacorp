@@ -1,0 +1,19 @@
+nav, footer {
+    color: $text-color;
+    header & {
+        background-color: $background;
+    }
+
+    ul {
+        list-style-type: none;
+
+    }
+    ul li a {
+        color: $white;
+
+        &:hover {
+            color: $yellow;
+        }
+        }
+
+}

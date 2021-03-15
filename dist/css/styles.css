@@ -2,6 +2,12 @@
 .main {
   color: #b8b6ae; }
   .main h1 {
-    color: #00aeff; }
+    color: #00aeff;
+    font-family: Roboto, sans-serif; }
   .main h2 {
     color: yellow; }
+
+nav {
+  color: #00aeff; }
+  header nav {
+    background-color: white; }
