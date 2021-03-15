@@ -1,13 +1,26 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto:400,900,100");
 .main {
-  color: #b8b6ae; }
+  color: #6a6862; }
   .main h1 {
     color: #00aeff;
-    font-family: Roboto, sans-serif; }
+    font-family: Roboto, sans-serif;
+    background-color: #999;
+    padding: 10px; }
   .main h2 {
     color: yellow; }
 
-nav {
+main, nav {
   color: #00aeff; }
-  header nav {
-    background-color: white; }
+  header main, header nav {
+    background-color: #6a6862; }
+  main ul, nav ul {
+    list-style-type: none; }
+  main ul li a, nav ul li a {
+    color: yellow;
+    text-decoration: none; }
+    main ul li a:hover, nav ul li a:hover {
+      color: blue; }
+    footer main ul li a, footer nav ul li a {
+      color: yellow; }
+    footer main ul li a, footer nav ul li a {
+      background-color: #00aeff; }

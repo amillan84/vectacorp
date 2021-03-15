@@ -1,4 +1,4 @@
-nav, footer {
+ nav {
     color: $text-color;
     header & {
         background-color: $background;
@@ -6,13 +6,29 @@ nav, footer {
 
     ul {
         list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
 
     }
+
+    ul li {
+        display: inline-block;
+    }
     ul li a {
-        color: $white;
+        color: $yellow;
+        background-color: $text-color;
+        text-decoration: none;
 
         &:hover {
+            color: $darkblue;
+        }
+        footer & {
             color: $yellow;
+        }
+        footer & {
+            background-color: $text-color;
+
         }
         }
 
